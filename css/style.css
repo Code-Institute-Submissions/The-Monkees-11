@@ -48,4 +48,37 @@ nav ul {
   align-items: center;
 }
 
+/*social*/
+.social {
+  display: flex;
+  justify-content: flex-end;
 
+  margin-left: 1000px;
+  margin-top: 55px;
+}
+
+.social-links {
+
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  margin-top: 50px;
+
+}
+
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+
+}
+
+
+footer {
+  background-color: #ccc;
+  min-height: 120px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
