@@ -76,9 +76,17 @@ nav ul {
 
 
 footer {
-  background-color: #ccc;
-  min-height: 120px;
+  background-color:#212529;
+  color: white;
+  min-height: 100px;
   margin: 0;
   display: flex;
   justify-content: center;
+  text-align: center;
+ 
+}
+
+.retropic{
+  height: 500px;
+  width: 300px;
 }
