@@ -86,26 +86,55 @@ footer {
 
 }
 
-/*Picture homepage*/
+/*--------index.html-----*/
+
+/*Picture index.html*/
 
 .retrotv {
-  height: 100px;
-  width: 100px;
-  padding: 20px;
+  padding: 25px;
+  padding-left: 100px;
   margin: 0;
   margin-top: 50px;
 
 }
 
-.side-by-side {
-  float: left;
-  margin-right: 60px;
-  margin-left:360px;
-  margin-top: 150px;
- 
+.link {
+  text-align: center;
+  color:white;
+  background-color: red;
+
 }
 
-#side1, #side2, #side3, #side4
-{
-  margin-right: 100px;
+/*--------band.html-----*/
+
+/*Band pictures+ styling*/
+
+.pictures{
+  margin-top: 200px;
+  
 }
+
+h3{
+  display: inline;
+  color:white;
+  background-color: rgba(140, 140, 140, 0.1);
+}
+
+.centerh1{
+  text-align: center;
+  color:white;
+  background-color:rgba(0, 0, 0, 0.2);
+  font-family: "Roboto", sans-serif;
+}
+
+.wiki{
+  text-align: center;
+  font-size: small;
+}
+
+.centertext{
+  display:inline;
+  text-align: right;
+}
+
+
