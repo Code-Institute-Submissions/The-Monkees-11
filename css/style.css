@@ -19,6 +19,12 @@ body {
   margin-right: 30px;
   /*test*/
 }
+.headericon{
+  margin-left: -25px;
+  margin-bottom: 5px;
+  color: rgb(205,133,63);
+ 
+}
 
 
 
@@ -46,7 +52,7 @@ nav ul {
   align-items: center;
 }
 
-/*social*/
+
 
 .social {
   display: flex;
@@ -71,6 +77,11 @@ nav ul {
   height: 32px;
   font-size: 20px;
 
+}
+
+.brown{
+  color: rgb(205,133,63);
+  
 }
 
 /*Footer styling*/
@@ -100,7 +111,7 @@ footer {
 
 .link {
   text-align: center;
-  color:white;
+  color: white;
   background-color: red;
 
 }
@@ -109,32 +120,80 @@ footer {
 
 /*Band pictures+ styling*/
 
-.pictures{
+.pictures {
   margin-top: 200px;
-  
+
 }
 
-h3{
+/*band text styling*/
+
+h3 {
   display: inline;
-  color:white;
+  color: white;
   background-color: rgba(140, 140, 140, 0.1);
 }
 
-.centerh1{
+/*h1 layout+ styling*/
+
+.centerh1 {
   text-align: center;
-  color:white;
-  background-color:rgba(0, 0, 0, 0.2);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
   font-family: "Roboto", sans-serif;
 }
 
-.wiki{
+/*more info text styling*/
+
+.wiki {
   text-align: center;
   font-size: small;
 }
 
-.centertext{
-  display:inline;
-  text-align: right;
+/*--------show.html-----*/
+
+.bookpic{
+  margin-top: 100px;
+  margin-left:320px;
 }
 
+/*--------media.html-----*/
 
+
+/*--------contact.html-----*/
+
+/*Form styling*/
+
+#form_container {
+  padding: 15px 15px;
+  margin-top: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+body {
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.centerp1 {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-family: "Roboto", sans-serif;
+}
