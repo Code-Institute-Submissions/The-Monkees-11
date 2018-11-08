@@ -2,9 +2,14 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   background-color: #686868;
-  background-image: url(/pictures/background2.jpg)
-}
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(/pictures/background/black-white-bg.jpg)
+  
+ 
+  
 
+}
 /*Header style*/
 
 .nav-item {
@@ -110,9 +115,15 @@ footer {
 }
 
 .link {
+  display:inline-block;
+  padding-right:20px;
+  padding-left: 20;
+  margin-top:650px;
+  margin-left:650px;
   text-align: center;
   color: white;
   background-color: red;
+  
 
 }
 
@@ -137,11 +148,16 @@ h3 {
 
 .centerh1 {
   text-align: center;
+  padding-left:10px;
   color: white;
   background-color: rgba(0, 0, 0, 0.2);
   font-family: "Roboto", sans-serif;
+  
 }
 
+.textstyle-band{
+  text-align:center;
+}
 /*more info text styling*/
 
 .wiki {
@@ -157,8 +173,41 @@ h3 {
 }
 
 /*--------media.html-----*/
+.audio{
+  padding-left: 100px;
+  padding-top: 200px;
+}
+.songs{
+  padding-top:55px;
+  padding-left:10px;
+  
+}
 
+.pic1{
+  padding-top:50px;
+  padding-left:10px;
+  padding-bottom:50px;
+}
+.titlesong{
+  padding-left:100px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-family: "Roboto", sans-serif;
+}
+.titlesong1{
+  padding-left:80px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-family: "Roboto", sans-serif;
+}
 
+.alert{
+  text-align:center;
+  margin-top:50px;
+  font-family: "Roboto", sans-serif;
+  font-size:20px;
+  
+}
 /*--------contact.html-----*/
 
 /*Form styling*/
@@ -170,12 +219,7 @@ h3 {
   color: #fff;
 }
 
-body {
-  background-color: #000;
-  background-size: cover;
-  background-repeat: no-repeat;
 
-}
 
 .upload-btn-wrapper {
   position: relative;
@@ -197,3 +241,7 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
   font-family: "Roboto", sans-serif;
 }
+
+
+
+
