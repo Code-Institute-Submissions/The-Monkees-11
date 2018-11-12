@@ -27,16 +27,10 @@ html {
   margin-left: auto;
 }
 
-@media (min-width: 640) {
+@media (min-width: 576px) {
   .container {
     max-width: 540px;
-    
   }
-  .link{
-    
-    margin-left: 50px;
-    margin-top: 1px;
-    font-size: medium;
 }
 
 @media (min-width: 768px) {
