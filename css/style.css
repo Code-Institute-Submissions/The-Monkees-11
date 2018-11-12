@@ -5,11 +5,8 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-image: url(/pictures/background/black-white-bg.jpg)
-  
- 
-  
-
 }
+
 /*Header style*/
 
 .nav-item {
@@ -24,11 +21,12 @@ body {
   margin-right: 30px;
   /*test*/
 }
-.headericon{
+
+.headericon {
   margin-left: -25px;
   margin-bottom: 5px;
-  color: rgb(205,133,63);
- 
+  color: rgb(205, 133, 63);
+
 }
 
 
@@ -84,9 +82,9 @@ nav ul {
 
 }
 
-.brown{
-  color: rgb(205,133,63);
-  
+.brown {
+  color: rgb(205, 133, 63);
+
 }
 
 /*Footer styling*/
@@ -115,15 +113,15 @@ footer {
 }
 
 .link {
-  display:inline-block;
-  padding-right:20px;
+  display: inline-block;
+  padding-right: 20px;
   padding-left: 20;
-  margin-top:650px;
-  margin-left:650px;
+  margin-top: 650px;
+  margin-left: 650px;
   text-align: center;
   color: white;
   background-color: red;
-  
+
 
 }
 
@@ -148,16 +146,17 @@ h3 {
 
 .centerh1 {
   text-align: center;
-  padding-left:10px;
+  padding-left: 10px;
   color: white;
   background-color: rgba(0, 0, 0, 0.2);
   font-family: "Roboto", sans-serif;
-  
+
 }
 
-.textstyle-band{
-  text-align:center;
+.textstyle-band {
+  text-align: center;
 }
+
 /*more info text styling*/
 
 .wiki {
@@ -167,47 +166,52 @@ h3 {
 
 /*--------show.html-----*/
 
-.bookpic{
+.bookpic {
   margin-top: 100px;
-  margin-left:320px;
+  margin-left: 320px;
 }
 
 /*--------media.html-----*/
-.audio{
+
+.audio {
   padding-left: 100px;
   padding-top: 200px;
 }
-.songs{
-  padding-top:55px;
-  padding-left:10px;
-  
+
+.songs {
+  padding-top: 55px;
+  padding-left: 10px;
+
 }
 
-.pic1{
-  padding-top:50px;
-  padding-left:10px;
-  padding-bottom:50px;
+.pic1 {
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-bottom: 50px;
 }
-.titlesong{
-  padding-left:100px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.2);
-  font-family: "Roboto", sans-serif;
-}
-.titlesong1{
-  padding-left:80px;
+
+.titlesong {
+  padding-left: 100px;
   color: white;
   background-color: rgba(0, 0, 0, 0.2);
   font-family: "Roboto", sans-serif;
 }
 
-.alert{
-  text-align:center;
-  margin-top:50px;
+.titlesong1 {
+  padding-left: 80px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
   font-family: "Roboto", sans-serif;
-  font-size:20px;
-  
 }
+
+.alert {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+
+}
+
 /*--------contact.html-----*/
 
 /*Form styling*/
@@ -242,6 +246,45 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 
+/*--------Media Quaries-----*/
 
+@media (max-width: 640px) {
+  body {
+    font-size: 1em;
+    background-position: 0px 50px; /* This makes the image appear 50px from top */
+    background-size: 200%
+    
+    
 
+  }
+  .link {
 
+    margin: 31em 1em 2em 3.5em;
+    font-size: small;
+    font-weight: normal;
+
+  }
+.headericon{
+  display: none;
+}
+  .navbar {
+    display: flex;
+    
+
+  }
+  
+  .navbar-brand {
+     padding-left: 2em;
+    margin-top:1em;
+  }
+  .logobrand{
+    display:none;
+  }
+  .brandtext{
+    display: block;
+    text-align: center;
+   
+    
+  
+  }
+}
