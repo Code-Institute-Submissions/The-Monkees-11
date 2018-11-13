@@ -20,6 +20,8 @@ body {
   margin-left: 30px;
   margin-right: 30px;
   /*test*/
+
+  
 }
 
 .headericon {
@@ -113,17 +115,18 @@ footer {
 }
 
 .link {
-  display: inline-block;
-  padding-right: 20px;
-  padding-left: 20;
-  margin-top: 650px;
-  margin-left: 650px;
+  display:inline-block;
+  margin-left: 200px;
   text-align: center;
   color: white;
-  background-color: red;
+  background-color: rgb(205, 133, 63)
 
 
 }
+.brandtext{
+  color: rgb(205, 133, 63)
+}
+
 
 /*--------band.html-----*/
 
@@ -259,7 +262,7 @@ h3 {
   }
   .link {
 
-    margin: 31em 1em 2em 3.5em;
+    margin-left:80px;
     font-size: small;
     font-weight: normal;
 
@@ -283,8 +286,14 @@ h3 {
   .brandtext{
     display: block;
     text-align: center;
-   
-    
+    font-family: 'Roboto', sans-serif;
+  }
   
+  .youtube{
+    width: 70%;
+    height: auto;
+    margin-top: 120px;
+    margin-bottom: 1px;
+    margin-left:55px;
   }
 }
