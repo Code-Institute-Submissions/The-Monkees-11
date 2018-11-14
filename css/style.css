@@ -101,6 +101,9 @@ footer {
   text-align: center;
 
 }
+.footer-text{
+font-family: "Roboto", sans-serif;
+}
 
 /*--------index.html-----*/
 
@@ -257,25 +260,15 @@ h3 {
     background-position: 0px 50px; /* This makes the image appear 50px from top */
     background-size: 200%
     
-    
-
   }
-  .link {
+  
 
-    margin-left:80px;
-    font-size: small;
-    font-weight: normal;
-
-  }
+/*Form styling*/
+  
 .headericon{
   display: none;
 }
-  .navbar {
-    display: flex;
-    
-
-  }
-  
+ 
   .navbar-brand {
      padding-left: 2em;
     margin-top:1em;
@@ -286,7 +279,28 @@ h3 {
   .brandtext{
     display: block;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Spicy Rice', cursive;
+    
+  }
+    
+    .footer-text{
+    margin-left:30px;
+    margin-top:20px;
+    font-size: small;
+  }
+  .social-links{
+    width: 30%;
+    padding-bottom: 15px;
+    margin-right:71px;
+    margin-bottom: 50px;
+  }
+ 
+  .link {
+
+    margin-left:80px;
+    font-size: small;
+    font-weight: normal;
+
   }
   
   .youtube{
@@ -296,4 +310,5 @@ h3 {
     margin-bottom: 1px;
     margin-left:55px;
   }
+  
 }
