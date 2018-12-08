@@ -1,4 +1,4 @@
-@media (max-width: 640px) {
+ 
  body {
   /* Location of the image*/
   background-image: url(/pictures/background/black-white-bg.jpg);
@@ -20,12 +20,15 @@
   /* Set a background color that will be displayed
      while the background image is loading*/ 
   background-color: #464646;
+  
+  max-width: 100%;
+    overflow-x: hidden;
 }
 
 /*header and footer on all pages*/
   
 .headericon{
-  display: none;
+  margin-right: 10px;
   color: rgb(205, 133, 63);
 }
  
@@ -34,7 +37,7 @@
     margin-top:1em;
   }
   .logobrand{
-    display:none;
+
   }
   .brandtext{
     display: block;
@@ -65,11 +68,11 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 15%;
     padding-bottom: 15px;
     margin-right:71px;
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .social-links li a i {
   width: 32px;
@@ -83,9 +86,11 @@
 
 }
 
-}
+
   
   .centerp1 {
+    display: block;
+    margin-top:50px;
   text-align: center;
   color: black;
   background-color:rgb(255,255,255);
@@ -93,6 +98,7 @@
   font-size: small;
   
 }
+
 .centerh1 {
   text-align: center;
   padding-left: 10px;
@@ -102,18 +108,29 @@
 }
  /*index.html*/
 
-  .youtube{
-    width: 70%;
-    height: auto;
-    margin-top: 90px;
-    margin-bottom: 10px;
-    margin-left:50px;
-    
+  .video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	margin-top: 30px;
+	margin-left: 600px;
+	height:0;
+	overflow:hidden;
+}
 
-  }
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0px;
+	left:0;
+	bottom:0;
+	width:50%;
+	height:50%;
+}
+
  .link {
   display:block;
   padding-right: 1px;
+  margin-left:-55px;
+  margin-bottom: -500px;
   text-align: center;
   color: white;
   background-color: rgb(205, 133, 63)
@@ -136,6 +153,7 @@
   
   .pictures{
     padding-bottom: 100px;
+    margin-top:126px;
   }
   
   .textstyle-band{
@@ -156,13 +174,15 @@
     
   }
   .bookpic{
-    margin-left: 65px;
-    margin-top:50px;
+    margin-left: 390px;
+    margin-top:100px;
   }
   
   /*media*/
   .titlesong {
   padding-left: 10px;
+  margin-left:150px;
+  margin-right:-150px;
   text-align: center;
   color: black;
   background-color: white;
@@ -172,10 +192,19 @@
 }
 
 .titlesong1 {
-  padding-left: 30px;
-  padding-right:30px;
   text-align:center;
+  margin-left: 148px;
+  margin-right: -150px;
   color: black;
+  background-color: white;
+  font-size: small;
+  font-family: "Roboto", sans-serif;
+}
+.titlesong2{
+  text-align: center;
+  margin-left: 150px;
+  margin-right: -150px;
+  color:black;
   background-color: white;
   font-size: small;
   font-family: "Roboto", sans-serif;
@@ -185,34 +214,37 @@
 
 
 .pic1 {
-  width: 60%;
+  width: 100%;
   height: auto;
   padding: 10 10 50 10;
-  margin-top: 10px;
-  margin-left: 68px;
+  margin-top: 120px;
   margin-bottom:40px;
+  margin-left: 150px;
  
 }
 
 .audio{
   width: 60%;
+  padding-left: 1px;
   margin-bottom:100px;
-  margin-left: 68px;
+  margin-left: 194px;
 }
 
  /*contact*/
 #form_container
 {
-  width: 70%;
-  height: 40%;
-  margin-top:9px;
-	margin-left: 60px;
+  width: 60%;
+  height: 60%;
+  margin-top:100px;
+	margin-left: 620px;
+	padding-left: -20px;
 	background: rgba(0,0,0,0.5);	
 	color:#fff;
 	background-color: #000;
-	
-
-
+}
+#message{
+  width: 200%;
+  margin-left: 13px;
 }
 .upload-btn-wrapper 
 {
@@ -229,6 +261,3 @@
   top: 0;
   opacity: 0;
 }
-
-@media (max-width: 10240px) {
- body {
