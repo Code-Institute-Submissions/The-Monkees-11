@@ -1,26 +1,42 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+ 
+# The Monkees
 
+### Reason why
 
-Hi there! Welcome to Cloud9 IDE!
+Hello and welcome to this readme
+This is about the site of the rockband: The Monkees.
+Created for our fans!
 
-To get you started, we included a small hello world application.
+### Language and framwork used
+- HTML5
+- CSS3
+- Bootstrap version 4.1
+- Font awesome
+- Google fonts. 
 
-1) Open the hello-world.html file
+### Features
+- **HOME:** On the homescreen you can go listen to our newest song or click the link to our other songs.
+- **BAND:** Here you see the pictures of all the bandmembers with more info button you can click on for wikipedia.
+- **SHOWS:** Click the blue colored here to go straight to the contact form.
+- **MEDIA** On this page you see the album covers and under it you can click on the play icon and listen to our songs.
+- **CONTACT** This brings you to our contact form that you can fill in with your information.
 
-2) Click on the Preview button to open a live preview pane
+### Features left to be implented
+- Fully mobile responsive.
 
-3) Make some changes to the file, save, watch the preview, and have fun!
+### Developed
+The site is created in Cloud9.
+Used git for the commits and uploaded it to github.
+For a project of Code Institute.
 
-Happy coding!
-The Cloud9 IDE team
+### Credits
 
+Most of the pictures are from the code institute github.
+The book us picture I created myself using photoshop.
 
-## Support & Documentation
+#### Acknowledgements
 
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+- Stackoverflow
+- w3schools.com
+- Code institute Slack.
+- Tutors
