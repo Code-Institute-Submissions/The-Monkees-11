@@ -172,13 +172,12 @@
 
  .centerinfo {
    text-align: center;
-   color: blue;
    background-color: white;
 
  }
 
-   /*MEDIA.HTML*/
-.titlesong{
+  /*MEDIA.HTML*/
+.titlesong1{
  margin-left: 91px;
     margin-right: 75px;
     text-align: center;
@@ -188,6 +187,25 @@
     font-family: "Roboto", sans-serif;
 }
 
+.titlesong2{
+ margin-left: 91px;
+    margin-right: 75px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: small;
+    font-family: "Roboto", sans-serif;
+}
+ 
+ .titlesong3{
+  margin-left: 91px;
+    margin-right: 75px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: small;
+    font-family: "Roboto", sans-serif;
+ }
  .pic1{
     width: 50%;
     height: auto;
@@ -207,8 +225,22 @@
   margin-left: 90px;
   width: 50%
 }
- .audio {
+ .audio1 {
     width: 58%;
+    padding-left: -8px;
+    margin-bottom: 122px;
+    margin-left: 78px;
+}
+
+.audio2{
+  width: 58%;
+    padding-left: -8px;
+    margin-bottom: 122px;
+    margin-left: 78px;
+}
+
+.audio3{
+  width: 58%;
     padding-left: -8px;
     margin-bottom: 122px;
     margin-left: 78px;
@@ -244,10 +276,267 @@
  
 
  @media (min-width: 576px) and (max-width: 767.98px) {
+   
+   body {
+     /* Location of the image*/
+     background-image: url(/pictures/background/black-white-bg.jpg);
+
+     /* Background image is centered vertically and horizontally at all times*/
+     background-position: center center;
+
+     /* Background image doesn't tile*/
+     background-repeat: no-repeat;
+
+     /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height*/
+     background-attachment: fixed;
+
+     /* This is what makes the background image rescale based
+     on the container's size */
+     background-size: cover;
+
+     /* Set a background color that will be displayed
+     while the background image is loading*/
+     background-color: #464646;
+
+     max-width: 100%;
+     overflow-x: hidden;
+   }
+   
+   .headericon {
+
+     margin-right: 10px;
+
+     color: rgb(205, 133, 63);
+
+   }
+
+   .logobrand{
+    margin-left: -70px;
+   }
+
+   .navbar-brand {
+     padding-left: 2em;
+     margin-top: 1em;
+   }
+
+   .brandtext {
+     display: block;
+     margin-left:-83px;
+     color: rgb(205, 133, 63);
+     text-align: center;
+     font-family: 'Spicy Rice', cursive;
+
+   }
+   
+    /*Style paragraph all pages top*/
+   .centerp1 {
+   display: block;
+   margin-top: 18px;
+   text-align: center;
+   color: black;
+   background-color: rgb(255, 255, 255);
+   font-family: "Roboto", sans-serif;
+   font-size: small;
+
+ }
+ /*Style h1 all pages top*/
+ .centerh1 {
+   text-align: center;
+   padding-left: 10px;
+   color: yellow;
+   background-color: rgba(205, 133, 63, 0.7);
+       font-size: 1.5rem;
+   font-family: "Roboto", sans-serif;
+ }
+
+ 
+ 
+
+   /*Footer styling on all pages*/
+   footer {
+     background-color: #212529;
+     color: white;
+     min-height: 100px;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+
+   }
+   .footer-text {
+     font-family: "Roboto", sans-serif;
+     margin-top: 35px;
+     font-size: small;
+   }
+
+   .social-links {
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+     width: 31%;
+     margin-right: 71px;
+     margin-bottom: 50px;
+     margin-top: 42px;
+   }
+   .social-links li a i {
+     width: 32px;
+     height: 32px;
+     font-size: 20px;
+
+   }
+   /*Header and footer color text*/
+   .brown {
+     color: rgb(205, 133, 63);
+
+   }
+   
+   /*INDEX.HTML*/
+   
+   /*Youtube video*/
+  
+   .video-container {
+     position: relative;
+      margin-top: 6em;
+
+     padding-bottom: 56.25%;
+     padding-top: 30px;
+     height: 0;
+     overflow: hidden;
+   }
+
+   .video-container iframe,
+   .video-container object,
+   .video-container embed {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+   }
+
+   .link {
+     display: block;
+     padding-right: 1px;
+     margin-left: -55px;
+     text-align: center;
+     color: white;
+     background-color: rgb(205, 133, 63)
+   }
+   
+   /*BAND.HTML*/
+   
    .pictures {
      margin-bottom: 100px;
-     margin-left: 5px;
    }
+   
+   .textstyle-band {
+   text-align: center;
+   color: black;
+   background-color: white;
+   font-family: "Roboto", sans-serif;
+
+ }
+
+ .icon {
+   margin-right: 10px;
+ }
+
+ .centerinfo {
+   text-align: center;
+   background-color: white;
+
+ }
+  /*MEDIA.HTML*/
+.titlesong1{
+ margin-left: 91px;
+    margin-right: 75px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: small;
+    font-family: "Roboto", sans-serif;
+}
+
+.titlesong2{
+ margin-left: 91px;
+    margin-right: 75px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: small;
+    font-family: "Roboto", sans-serif;
+}
+ 
+ .titlesong3{
+  margin-left: 91px;
+    margin-right: 75px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: small;
+    font-family: "Roboto", sans-serif;
+ }
+ .pic1{
+    width: 221%;
+    height: auto;
+    padding: 10 10 50 10;
+    margin-top: 36px;
+    margin-left: 135px;
+}
+
+.pic2{
+ margin-top: 379px;
+    width: 221%;
+}
+.pic3{
+  margin-top: 719px;
+    margin-left: -135px;
+    width: 221%;
+}
+ .audio1 {
+    width: 260%;
+    margin-bottom: 122px;
+    margin-left: 114px;
+}
+
+.audio2{
+  width: 260%;
+  margin-bottom: 122px;
+  margin-left: -24px;
+}
+
+.audio3{
+  width: 260%;
+    margin-bottom: 120px;
+    margin-left: -159px;
+}
+
+
+/*CONTACT.HTML*/
+
+ #form_container {
+   
+   width: 80%;
+   margin-left: 2.5em;
+   background: rgba(0, 0, 0, 0.5);
+   color: #fff;
+   background-color: #000;
+ }
+
+ .upload-btn-wrapper {
+   position: relative;
+   overflow: hidden;
+   display: inline-block;
+ }
+
+ .upload-btn-wrapper input[type=file] {
+   font-size: 100px;
+   position: absolute;
+   left: 0;
+   top: 0;
+   opacity: 0;
+ }
  }
 
  @media (min-width: 768px) and (max-width: 991.98px) {
