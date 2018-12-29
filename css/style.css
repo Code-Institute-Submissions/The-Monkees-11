@@ -175,11 +175,13 @@
    background-color: white;
 
  }
+ 
+ 
 
   /*MEDIA.HTML*/
 .titlesong1{
- margin-left: 91px;
-    margin-right: 75px;
+ margin-left: 90px;
+    margin-right: -90px;
     text-align: center;
     color: black;
     background-color: white;
@@ -188,8 +190,9 @@
 }
 
 .titlesong2{
- margin-left: 91px;
-    margin-right: 75px;
+ margin-left: 90px;
+    margin-right: -90px;
+    margin-top: 5px;
     text-align: center;
     color: black;
     background-color: white;
@@ -198,8 +201,9 @@
 }
  
  .titlesong3{
-  margin-left: 91px;
-    margin-right: 75px;
+  margin-left: 90px;
+    margin-right: -90px;
+    margin-top:5px;
     text-align: center;
     color: black;
     background-color: white;
@@ -207,7 +211,7 @@
     font-family: "Roboto", sans-serif;
  }
  .pic1{
-    width: 50%;
+    
     height: auto;
     padding: 10 10 50 10;
     margin-top: 33px;
@@ -218,12 +222,12 @@
 .pic2{
   margin-top: -87px;
   margin-left: 90px;
-  width: 50%
+  
 }
 .pic3{
   margin-top: -87px;
   margin-left: 90px;
-  width: 50%
+  
 }
  .audio1 {
     width: 58%;
@@ -540,14 +544,557 @@
  }
 
  @media (min-width: 768px) and (max-width: 991.98px) {
-   .pictures {
-     margin-left: 85px;
+   
+   body {
+     /* Location of the image*/
+     background-image: url(/pictures/background/black-white-bg.jpg);
+
+     /* Background image is centered vertically and horizontally at all times*/
+     background-position: center center;
+
+     /* Background image doesn't tile*/
+     background-repeat: no-repeat;
+
+     /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height*/
+     background-attachment: fixed;
+
+     /* This is what makes the background image rescale based
+     on the container's size */
+     background-size: cover;
+
+     /* Set a background color that will be displayed
+     while the background image is loading*/
+     background-color: #464646;
+
+     max-width: 100%;
+     overflow-x: hidden;
    }
+   
+   .headericon {
+
+     margin-right: 10px;
+
+     color: rgb(205, 133, 63);
+
+   }
+
+   .logobrand{
+    margin-left: -65px;
+   }
+
+.navbar {
+    width: 102%;}
+    
+    .navbar-nav .nav-link {
+   font-size: larger;
+}
+
+   .navbar-brand {
+     padding-left: 2em;
+     margin-top: 1em;
+   }
+
+   .brandtext {
+     display: block;
+     margin-left:-82px;
+     color: rgb(205, 133, 63);
+     text-align: center;
+     font-family: 'Spicy Rice', cursive;
+
+   }
+   
+    /*Style paragraph all pages top*/
+   .centerp1 {
+   display: block;
+   margin-top: 18px;
+   text-align: center;
+   color: black;
+   background-color: rgb(255, 255, 255);
+   font-family: "Roboto", sans-serif;
+   font-size: medium;
+
+ }
+ /*Style h1 all pages top*/
+ .centerh1 {
+   text-align: center;
+   margin-right: -15px;
+   padding-left: 10px;
+   color: yellow;
+   background-color: rgba(205, 133, 63, 0.7);
+       font-size: 1.5rem;
+   font-family: "Roboto", sans-serif;
+ }
+
+ 
+ 
+
+   /*Footer styling on all pages*/
+   footer {
+     background-color: #212529;
+     color: white;
+     min-height: 100px;
+     width: 101%;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+
+   }
+   .footer-text {
+     font-family: "Roboto", sans-serif;
+     margin-top: 35px;
+     font-size: medium;
+   }
+
+   .social-links {
+     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 31%;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    margin-top: 42px;
+   }
+   .social-links li a i {
+     width: 32px;
+     height: 32px;
+     font-size: 30px;
+
+   }
+   /*Header and footer color text*/
+   .brown {
+     color: rgb(205, 133, 63);
+
+   }
+   
+   /*INDEX.HTML*/
+   
+   /*Youtube video*/
+  
+   .video-container {
+     position: relative;
+    margin-top: 10em;
+    margin-right: -15px;
+    padding-bottom: 54.25%;
+    padding-top: 2px;
+    height: 0;
+    overflow: hidden;
+   }
+
+   .video-container iframe,
+   .video-container object,
+   .video-container embed {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+   }
+
+   .link {
+     display: block;
+     padding-right: 1px;
+     margin-left: -55px;
+     margin-right: -15px;
+     text-align: center;
+     color: white;
+     background-color: rgb(205, 133, 63)
+   }
+   
+   /*BAND.HTML*/
+   
+   .pictures {
+     margin-bottom: 100px;
+     margin-right: -2em;
+   }
+   
+   .textstyle-band {
+   text-align: center;
+   color: black;
+   background-color: white;
+   font-family: "Roboto", sans-serif;
+
+ }
+
+ .icon {
+   margin-right: 10px;
+ }
+
+ .centerinfo {
+   text-align: center;
+   background-color: white;
+
+ }
+  /*MEDIA.HTML*/
+.titlesong1{
+ margin-left: 185px;
+    margin-right: -89px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: larger;
+    font-family: "Roboto", sans-serif;
+}
+
+.titlesong2{
+margin-left: 185px;
+    margin-right: -89px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: larger;
+    font-family: "Roboto", sans-serif;
+}
+ 
+ .titlesong3{
+ margin-left: 185px;
+    margin-right: -89px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: larger;
+    font-family: "Roboto", sans-serif;
+ }
+ .pic1{
+   width: 80%;
+    height: auto;
+    margin-top: 90px;
+    margin-left: 186px;
+}
+
+.pic2{
+margin-top: -90px;
+    margin-left: 185px;
+    width: 80%;
+}
+.pic3{
+  margin-top: -90px;
+    margin-left: 185px;
+    width: 80%;
+}
+ .audio1 {
+    width: 37%;
+    margin-bottom: 122px;
+    margin-left: 247px;
+}
+
+.audio2{
+  width: 37%;
+    margin-bottom: 122px;
+    margin-left:247px;
+}
+
+.audio3{
+width: 37%;
+    margin-bottom: 120px;
+    margin-left: 247px;
+}
+
+
+/*CONTACT.HTML*/
+
+ #form_container {
+   
+ 
+  margin-left: 14.5em;
+    margin-top: 12em;
+   background: rgba(0, 0, 0, 0.5);
+   color: #fff;
+   background-color: #000;
+ }
+
+ .upload-btn-wrapper {
+   position: relative;
+   overflow: hidden;
+   display: inline-block;
+ }
+
+ .upload-btn-wrapper input[type=file] {
+   font-size: 100px;
+   position: absolute;
+   left: 0;
+   top: 0;
+   opacity: 0;
+ }
  }
 
  @media (min-width: 1200px) {
 
+ body {
+     /* Location of the image*/
+     background-image: url(/pictures/background/black-white-bg.jpg);
 
+     /* Background image is centered vertically and horizontally at all times*/
+     background-position: center center;
+
+     /* Background image doesn't tile*/
+     background-repeat: no-repeat;
+
+     /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height*/
+     background-attachment: fixed;
+
+     /* This is what makes the background image rescale based
+     on the container's size */
+     background-size: cover;
+
+     /* Set a background color that will be displayed
+     while the background image is loading*/
+     background-color: #464646;
+
+     max-width: 100%;
+     overflow-x: hidden;
+   }
+   
+   .headericon {
+
+     margin-right: 10px;
+
+     color: rgb(205, 133, 63);
+
+   }
+
+   .logobrand{
+    width: 170px;
+   }
+
+.navbar {
+    width: 102%;}
+    
+    .navbar-nav .nav-link {
+   font-size: large;
+    margin-left: 176px;
+}
+
+   .navbar-brand {
+     padding-left: 2em;
+     margin-top: 1em;
+   }
+
+   .brandtext {
+     display: block;
+     color: rgb(205, 133, 63);
+     text-align: center;
+     font-family: 'Spicy Rice', cursive;
+     font-size: larger;
+
+   }
+   
+    /*Style paragraph all pages top*/
+   .centerp1 {
+   display: block;
+   margin-top: 18px;
+   text-align: center;
+   color: black;
+   background-color: rgb(255, 255, 255);
+   font-family: "Roboto", sans-serif;
+   font-size: medium;
+
+ }
+ /*Style h1 all pages top*/
+ .centerh1 {
+   text-align: center;
+   margin-right: -15px;
+   padding-left: 10px;
+   color: yellow;
+   background-color: rgba(205, 133, 63, 0.7);
+       font-size: 1.5rem;
+   font-family: "Roboto", sans-serif;
+ }
+
+ 
+ 
+
+   /*Footer styling on all pages*/
+   footer {
+     background-color: #212529;
+     color: white;
+     min-height: 100px;
+     width: 101%;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+
+   }
+   .footer-text {
+     font-family: "Roboto", sans-serif;
+     margin-top: 35px;
+     font-size: medium;
+   }
+
+   .social-links {
+     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 31%;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    margin-top: 42px;
+   }
+   .social-links li a i {
+     width: 32px;
+     height: 32px;
+     font-size: 30px;
+
+   }
+   /*Header and footer color text*/
+   .brown {
+     color: rgb(205, 133, 63);
+
+   }
+   
+   /*INDEX.HTML*/
+   
+   /*Youtube video*/
+  
+   .video-container {
+    position: relative;
+    width: 53%;
+    margin-left: 412px;
+    margin-top: 5em;
+    padding-bottom: 26.25%;
+    padding-top: 2px;
+    height: 0;
+    overflow: hidden;
+   }
+
+   .video-container iframe,
+   .video-container object,
+   .video-container embed {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+   }
+
+   .link {
+     display: block;
+     padding-right: 1px;
+    margin-left: 413px;
+    margin-right: 490px;
+     text-align: center;
+     color: white;
+     background-color: rgb(205, 133, 63)
+   }
+   
+   /*BAND.HTML*/
+   
+   .pictures {
+     margin-bottom: 100px;
+     margin-right: -2em;
+   }
+   
+   .textstyle-band {
+   text-align: center;
+   color: black;
+   background-color: white;
+   font-family: "Roboto", sans-serif;
+
+ }
+
+ .icon {
+   margin-right: 10px;
+ }
+
+ .centerinfo {
+   text-align: center;
+   background-color: white;
+
+ }
+  /*MEDIA.HTML*/
+.titlesong1{
+ margin-left: 185px;
+    margin-right: -89px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: larger;
+    font-family: "Roboto", sans-serif;
+}
+
+.titlesong2{
+margin-left: 185px;
+    margin-right: -89px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: larger;
+    font-family: "Roboto", sans-serif;
+}
+ 
+ .titlesong3{
+ margin-left: 185px;
+    margin-right: -89px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: larger;
+    font-family: "Roboto", sans-serif;
+ }
+ .pic1{
+   width: 80%;
+    height: auto;
+    margin-top: 90px;
+    margin-left: 186px;
+}
+
+.pic2{
+margin-top: -90px;
+    margin-left: 185px;
+    width: 80%;
+}
+.pic3{
+  margin-top: -90px;
+    margin-left: 185px;
+    width: 80%;
+}
+ .audio1 {
+    width: 37%;
+    margin-bottom: 122px;
+    margin-left: 247px;
+}
+
+.audio2{
+  width: 37%;
+    margin-bottom: 122px;
+    margin-left:247px;
+}
+
+.audio3{
+width: 37%;
+    margin-bottom: 120px;
+    margin-left: 247px;
+}
+
+
+/*CONTACT.HTML*/
+
+ #form_container {
+   
+ 
+  margin-left: 14.5em;
+    margin-top: 12em;
+   background: rgba(0, 0, 0, 0.5);
+   color: #fff;
+   background-color: #000;
+ }
+
+ .upload-btn-wrapper {
+   position: relative;
+   overflow: hidden;
+   display: inline-block;
+ }
+
+ .upload-btn-wrapper input[type=file] {
+   font-size: 100px;
+   position: absolute;
+   left: 0;
+   top: 0;
+   opacity: 0;
+ }
 
 
 
