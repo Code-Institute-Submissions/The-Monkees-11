@@ -1,1103 +1,1100 @@
+@media (max-width: 575.98px) {
+ body {
+  /* Location of the image*/
+  background-image: url(/pictures/background/black-white-bg.jpg);
 
- @media (max-width: 575.98px) {
-   body {
-     /* Location of the image*/
-     background-image: url(/pictures/background/black-white-bg.jpg);
+  /* Background image is centered vertically and horizontally at all times*/
+  background-position: center center;
 
-     /* Background image is centered vertically and horizontally at all times*/
-     background-position: center center;
+  /* Background image doesn't tile*/
+  background-repeat: no-repeat;
 
-     /* Background image doesn't tile*/
-     background-repeat: no-repeat;
-
-     /* Background image is fixed in the viewport so that it doesn't move when 
+  /* Background image is fixed in the viewport so that it doesn't move when 
      the content's height is greater than the image's height*/
-     background-attachment: fixed;
+  background-attachment: fixed;
 
-     /* This is what makes the background image rescale based
+  /* This is what makes the background image rescale based
      on the container's size */
-     background-size: cover;
+  background-size: cover;
 
-     /* Set a background color that will be displayed
+  /* Set a background color that will be displayed
      while the background image is loading*/
-     background-color: #464646;
+  background-color: #464646;
 
-     max-width: 100%;
-     overflow-x: hidden;
-   }
+  max-width: 100%;
+  overflow-x: hidden;
+ }
 
-   /*Header styling on all pages*/
-   .headericon {
+ /*Header styling on all pages*/
+ .headericon {
 
-     margin-right: 10px;
+  margin-right: 10px;
 
-     color: rgb(205, 133, 63);
+  color: rgb(205, 133, 63);
 
-   }
+ }
 
-   .navbar-brand {
-     padding-left: 2em;
-     margin-top: 1em;
-   }
+ .navbar-brand {
+  padding-left: 2em;
+  margin-top: 1em;
+ }
 
-   .logobrand {
-     display: none;
-   }
+ .logobrand {
+  display: none;
+ }
 
-   .navbar-brand {
-     padding-left: 2em;
-     margin-top: 1em;
-   }
+ .navbar-brand {
+  padding-left: 2em;
+  margin-top: 1em;
+ }
 
-   .brandtext {
-     display: block;
-     color: rgb(205, 133, 63);
-     text-align: center;
-     font-family: 'Spicy Rice', cursive;
+ .brandtext {
+  display: block;
+  color: rgb(205, 133, 63);
+  text-align: center;
+  font-family: 'Spicy Rice', cursive;
 
-   }
-   /*Style paragraph all pages top*/
-   .centerp1 {
-   display: block;
-   margin-top: 18px;
-   text-align: center;
-   color: black;
-   background-color: rgb(255, 255, 255);
-   font-family: "Roboto", sans-serif;
-   font-size: small;
+ }
+ /*Style paragraph all pages top*/
+ .centerp1 {
+  display: block;
+  margin-top: 18px;
+  text-align: center;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: small;
 
  }
  /*Style h1 all pages top*/
  .centerh1 {
-   text-align: center;
-   padding-left: 10px;
-   color: yellow;
-   background-color: rgba(205, 133, 63, 0.7);
-       font-size: 1.5rem;
-   font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding-left: 10px;
+  color: yellow;
+  background-color: rgba(205, 133, 63, 0.7);
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
  }
 
- 
- 
 
-   /*Footer styling on all pages*/
-   footer {
-     background-color: #212529;
-     color: white;
-     min-height: 100px;
-     margin: 0;
-     display: flex;
-     justify-content: center;
-     text-align: center;
 
-   }
-   .footer-text {
-     font-family: "Roboto", sans-serif;
-     margin-left: 30px;
-     margin-top: 20px;
-     font-size: small;
-   }
 
-   .social-links {
-     list-style: none;
-     display: flex;
-     justify-content: space-between;
-     width: 31%;
-     padding-bottom: 15px;
-     margin-right: 71px;
-     margin-bottom: 50px;
-     margin-top: 42px;
-   }
-   .social-links li a i {
-     width: 32px;
-     height: 32px;
-     font-size: 20px;
+ /*Footer styling on all pages*/
+ footer {
+  background-color: #212529;
+  color: white;
+  min-height: 100px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 
-   }
-   /*Header and footer color text*/
-   .brown {
-     color: rgb(205, 133, 63);
+ }
+ .footer-text {
+  font-family: "Roboto", sans-serif;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: small;
+ }
 
-   }
+ .social-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 31%;
+  padding-bottom: 15px;
+  margin-right: 71px;
+  margin-bottom: 50px;
+  margin-top: 42px;
+ }
+ .social-links li a i {
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
 
-   /*INDEX.HTML*/
-   
-   /*Youtube video*/
-  
-   .video-container {
-     position: relative;
-      margin-top: 6em;
+ }
+ /*Header and footer color text*/
+ .brown {
+  color: rgb(205, 133, 63);
 
-     padding-bottom: 56.25%;
-     padding-top: 30px;
-     height: 0;
-     overflow: hidden;
-   }
+ }
 
-   .video-container iframe,
-   .video-container object,
-   .video-container embed {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-   }
+ /*INDEX.HTML*/
+ /*Youtube video*/
+ .video-container {
+  position: relative;
+  margin-top: 6em;
 
-   .link {
-     display: block;
-     padding-right: 1px;
-     margin-left: -55px;
-     text-align: center;
-     color: white;
-     background-color: rgb(205, 133, 63)
-   }
-   /*BAND.HTML*/
-   
-   .pictures {
-     margin-bottom: 100px;
-   }
-   
-   .textstyle-band {
-   text-align: center;
-   color: black;
-   background-color: white;
-   font-family: "Roboto", sans-serif;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+ }
+
+ .video-container iframe,
+ .video-container object,
+ .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ }
+
+ .link {
+  display: block;
+  padding-right: 1px;
+  margin-left: -55px;
+  text-align: center;
+  color: white;
+  background-color: rgb(205, 133, 63)
+ }
+ /*BAND.HTML*/
+ .pictures {
+  margin-bottom: 100px;
+ }
+
+ .textstyle-band {
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
 
  }
 
  .icon {
-   margin-right: 10px;
+  margin-right: 10px;
  }
 
  .centerinfo {
-   text-align: center;
-   background-color: white;
+  text-align: center;
+  background-color: white;
 
  }
- 
- 
 
-  /*MEDIA.HTML*/
-.titlesong1{
- margin-left: 90px;
-    margin-right: -90px;
-    text-align: center;
-    color: black;
-    background-color: white;
-    font-size: small;
-    font-family: "Roboto", sans-serif;
-}
 
-.titlesong2{
- margin-left: 90px;
-    margin-right: -90px;
-    margin-top: 5px;
-    text-align: center;
-    color: black;
-    background-color: white;
-    font-size: small;
-    font-family: "Roboto", sans-serif;
-}
- 
- .titlesong3{
+
+ /*MEDIA.HTML*/
+ .titlesong1 {
   margin-left: 90px;
-    margin-right: -90px;
-    margin-top:5px;
-    text-align: center;
-    color: black;
-    background-color: white;
-    font-size: small;
-    font-family: "Roboto", sans-serif;
+  margin-right: -90px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-size: small;
+  font-family: "Roboto", sans-serif;
  }
- .pic1{
-    
-    height: auto;
-    padding: 10 10 50 10;
-    margin-top: 33px;
-    margin-bottom: 6px;
-    margin-left: 90px;
-}
 
-.pic2{
+ .titlesong2 {
+  margin-left: 90px;
+  margin-right: -90px;
+  margin-top: 5px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-size: small;
+  font-family: "Roboto", sans-serif;
+ }
+
+ .titlesong3 {
+  margin-left: 90px;
+  margin-right: -90px;
+  margin-top: 5px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-size: small;
+  font-family: "Roboto", sans-serif;
+ }
+ .pic1 {
+
+  height: auto;
+  padding: 10 10 50 10;
+  margin-top: 33px;
+  margin-bottom: 6px;
+  margin-left: 90px;
+ }
+
+ .pic2 {
   margin-top: -87px;
   margin-left: 90px;
-  
-}
-.pic3{
+
+ }
+ .pic3 {
   margin-top: -87px;
   margin-left: 90px;
-  
-}
+
+ }
  .audio1 {
-    width: 58%;
-    padding-left: -8px;
-    margin-bottom: 122px;
-    margin-left: 78px;
-}
-
-.audio2{
   width: 58%;
-    padding-left: -8px;
-    margin-bottom: 122px;
-    margin-left: 78px;
-}
+  padding-left: -8px;
+  margin-bottom: 122px;
+  margin-left: 78px;
+ }
 
-.audio3{
+ .audio2 {
   width: 58%;
-    padding-left: -8px;
-    margin-bottom: 122px;
-    margin-left: 78px;
-}
+  padding-left: -8px;
+  margin-bottom: 122px;
+  margin-left: 78px;
+ }
 
-/*CONTACT.HTML*/
+ .audio3 {
+  width: 58%;
+  padding-left: -8px;
+  margin-bottom: 122px;
+  margin-left: 78px;
+ }
 
+ /*CONTACT.HTML*/
  #form_container {
-   
-   width: 80%;
-   margin-left: 2.5em;
-   background: rgba(0, 0, 0, 0.5);
-   color: #fff;
-   background-color: #000;
+
+  width: 80%;
+  margin-left: 2.5em;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  background-color: #000;
  }
 
  .upload-btn-wrapper {
-   position: relative;
-   overflow: hidden;
-   display: inline-block;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
  }
 
  .upload-btn-wrapper input[type=file] {
-   font-size: 100px;
-   position: absolute;
-   left: 0;
-   top: 0;
-   opacity: 0;
- }
-   
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
  }
 
- 
+}
 
- @media (min-width: 576px) and (max-width: 767.98px) {
-   
-   body {
-     /* Location of the image*/
-     background-image: url(/pictures/background/black-white-bg.jpg);
 
-     /* Background image is centered vertically and horizontally at all times*/
-     background-position: center center;
 
-     /* Background image doesn't tile*/
-     background-repeat: no-repeat;
+@media (min-width: 576px) and (max-width: 767.98px) {
 
-     /* Background image is fixed in the viewport so that it doesn't move when 
+ body {
+  /* Location of the image*/
+  background-image: url(/pictures/background/black-white-bg.jpg);
+
+  /* Background image is centered vertically and horizontally at all times*/
+  background-position: center center;
+
+  /* Background image doesn't tile*/
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when 
      the content's height is greater than the image's height*/
-     background-attachment: fixed;
+  background-attachment: fixed;
 
-     /* This is what makes the background image rescale based
+  /* This is what makes the background image rescale based
      on the container's size */
-     background-size: cover;
+  background-size: cover;
 
-     /* Set a background color that will be displayed
+  /* Set a background color that will be displayed
      while the background image is loading*/
-     background-color: #464646;
+  background-color: #464646;
 
-     max-width: 100%;
-     overflow-x: hidden;
-   }
-   
-   .headericon {
+  max-width: 100%;
+  overflow-x: hidden;
+ }
 
-     margin-right: 10px;
+ .headericon {
 
-     color: rgb(205, 133, 63);
+  margin-right: 10px;
 
-   }
+  color: rgb(205, 133, 63);
 
-   .logobrand{
-    margin-left: -70px;
-   }
+ }
 
-   .navbar-brand {
-     padding-left: 2em;
-     margin-top: 1em;
-   }
+ .logobrand {
+  margin-left: -70px;
+ }
 
-   .brandtext {
-     display: block;
-     margin-left:-83px;
-     color: rgb(205, 133, 63);
-     text-align: center;
-     font-family: 'Spicy Rice', cursive;
+ .navbar-brand {
+  padding-left: 2em;
+  margin-top: 1em;
+ }
 
-   }
-   
-    /*Style paragraph all pages top*/
-   .centerp1 {
-   display: block;
-   margin-top: 18px;
-   text-align: center;
-   color: black;
-   background-color: rgb(255, 255, 255);
-   font-family: "Roboto", sans-serif;
-   font-size: small;
+ .brandtext {
+  display: block;
+  margin-left: -83px;
+  color: rgb(205, 133, 63);
+  text-align: center;
+  font-family: 'Spicy Rice', cursive;
+
+ }
+
+ /*Style paragraph all pages top*/
+ .centerp1 {
+  display: block;
+  margin-top: 18px;
+  text-align: center;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: small;
 
  }
  /*Style h1 all pages top*/
  .centerh1 {
-   text-align: center;
-   padding-left: 10px;
-   color: yellow;
-   background-color: rgba(205, 133, 63, 0.7);
-       font-size: 1.5rem;
-   font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding-left: 10px;
+  color: yellow;
+  background-color: rgba(205, 133, 63, 0.7);
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
  }
 
- 
- 
 
-   /*Footer styling on all pages*/
-   footer {
-     background-color: #212529;
-     color: white;
-     min-height: 100px;
-     margin: 0;
-     display: flex;
-     justify-content: center;
-     text-align: center;
 
-   }
-   .footer-text {
-     font-family: "Roboto", sans-serif;
-     margin-top: 35px;
-     font-size: small;
-   }
 
-   .social-links {
-     list-style: none;
-     display: flex;
-     justify-content: space-between;
-     width: 31%;
-     margin-right: 71px;
-     margin-bottom: 50px;
-     margin-top: 42px;
-   }
-   .social-links li a i {
-     width: 32px;
-     height: 32px;
-     font-size: 20px;
+ /*Footer styling on all pages*/
+ footer {
+  background-color: #212529;
+  color: white;
+  min-height: 100px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 
-   }
-   /*Header and footer color text*/
-   .brown {
-     color: rgb(205, 133, 63);
+ }
+ .footer-text {
+  font-family: "Roboto", sans-serif;
+  margin-top: 35px;
+  font-size: small;
+ }
 
-   }
-   
-   /*INDEX.HTML*/
-   
-   /*Youtube video*/
-  
-   .video-container {
-     position: relative;
-      margin-top: 6em;
+ .social-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 31%;
+  margin-right: 71px;
+  margin-bottom: 50px;
+  margin-top: 42px;
+ }
+ .social-links li a i {
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
 
-     padding-bottom: 56.25%;
-     padding-top: 30px;
-     height: 0;
-     overflow: hidden;
-   }
+ }
+ /*Header and footer color text*/
+ .brown {
+  color: rgb(205, 133, 63);
 
-   .video-container iframe,
-   .video-container object,
-   .video-container embed {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-   }
+ }
 
-   .link {
-     display: block;
-     padding-right: 1px;
-     margin-left: -55px;
-     text-align: center;
-     color: white;
-     background-color: rgb(205, 133, 63)
-   }
-   
-   /*BAND.HTML*/
-   
-   .pictures {
-     margin-bottom: 100px;
-   }
-   
-   .textstyle-band {
-   text-align: center;
-   color: black;
-   background-color: white;
-   font-family: "Roboto", sans-serif;
+ /*INDEX.HTML*/
+ /*Youtube video*/
+ .video-container {
+  position: relative;
+  margin-top: 6em;
+
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+ }
+
+ .video-container iframe,
+ .video-container object,
+ .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ }
+
+ .link {
+  display: block;
+  padding-right: 1px;
+  margin-left: -55px;
+  text-align: center;
+  color: white;
+  background-color: rgb(205, 133, 63)
+ }
+
+ /*BAND.HTML*/
+ .pictures {
+  margin-bottom: 100px;
+ }
+
+ .textstyle-band {
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
 
  }
 
  .icon {
-   margin-right: 10px;
+  margin-right: 10px;
  }
 
  .centerinfo {
-   text-align: center;
-   background-color: white;
+  text-align: center;
+  background-color: white;
 
  }
-  /*MEDIA.HTML*/
-.titlesong1{
- margin-left: 91px;
-    margin-right: 75px;
-    text-align: center;
-    color: black;
-    background-color: white;
-    font-size: small;
-    font-family: "Roboto", sans-serif;
-}
-
-.titlesong2{
- margin-left: 91px;
-    margin-right: 75px;
-    text-align: center;
-    color: black;
-    background-color: white;
-    font-size: small;
-    font-family: "Roboto", sans-serif;
-}
- 
- .titlesong3{
+ /*MEDIA.HTML*/
+ .titlesong1 {
   margin-left: 91px;
-    margin-right: 75px;
-    text-align: center;
-    color: black;
-    background-color: white;
-    font-size: small;
-    font-family: "Roboto", sans-serif;
+  margin-right: 75px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-size: small;
+  font-family: "Roboto", sans-serif;
  }
- .pic1{
-    width: 221%;
-    height: auto;
-    padding: 10 10 50 10;
-    margin-top: 36px;
-    margin-left: 135px;
-}
 
-.pic2{
- margin-top: 379px;
-    width: 221%;
-}
-.pic3{
+ .titlesong2 {
+  margin-left: 91px;
+  margin-right: 75px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-size: small;
+  font-family: "Roboto", sans-serif;
+ }
+
+ .titlesong3 {
+  margin-left: 91px;
+  margin-right: 75px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-size: small;
+  font-family: "Roboto", sans-serif;
+ }
+ .pic1 {
+  width: 221%;
+  height: auto;
+  padding: 10 10 50 10;
+  margin-top: 36px;
+  margin-left: 135px;
+ }
+
+ .pic2 {
+  margin-top: 379px;
+  width: 221%;
+ }
+ .pic3 {
   margin-top: 719px;
-    margin-left: -135px;
-    width: 221%;
-}
+  margin-left: -135px;
+  width: 221%;
+ }
  .audio1 {
-    width: 260%;
-    margin-bottom: 122px;
-    margin-left: 114px;
-}
+  width: 260%;
+  margin-bottom: 122px;
+  margin-left: 114px;
+ }
 
-.audio2{
+ .audio2 {
   width: 260%;
   margin-bottom: 122px;
   margin-left: -24px;
-}
+ }
 
-.audio3{
+ .audio3 {
   width: 260%;
-    margin-bottom: 120px;
-    margin-left: -159px;
-}
+  margin-bottom: 120px;
+  margin-left: -159px;
+ }
 
 
-/*CONTACT.HTML*/
-
+ /*CONTACT.HTML*/
  #form_container {
-   
-   width: 80%;
-   margin-left: 2.5em;
-   background: rgba(0, 0, 0, 0.5);
-   color: #fff;
-   background-color: #000;
+
+  width: 80%;
+  margin-left: 2.5em;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  background-color: #000;
  }
 
  .upload-btn-wrapper {
-   position: relative;
-   overflow: hidden;
-   display: inline-block;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
  }
 
  .upload-btn-wrapper input[type=file] {
-   font-size: 100px;
-   position: absolute;
-   left: 0;
-   top: 0;
-   opacity: 0;
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
  }
- }
-
- @media (min-width: 768px) and (max-width: 991.98px) {
-   
-   body {
-     /* Location of the image*/
-     background-image: url(/pictures/background/black-white-bg.jpg);
-
-     /* Background image is centered vertically and horizontally at all times*/
-     background-position: center center;
-
-     /* Background image doesn't tile*/
-     background-repeat: no-repeat;
-
-     /* Background image is fixed in the viewport so that it doesn't move when 
-     the content's height is greater than the image's height*/
-     background-attachment: fixed;
-
-     /* This is what makes the background image rescale based
-     on the container's size */
-     background-size: cover;
-
-     /* Set a background color that will be displayed
-     while the background image is loading*/
-     background-color: #464646;
-
-     max-width: 100%;
-     overflow-x: hidden;
-   }
-   
-   .headericon {
-
-     margin-right: 10px;
-
-     color: rgb(205, 133, 63);
-
-   }
-
-   .logobrand{
-    margin-left: -65px;
-   }
-
-.navbar {
-    width: 102%;}
-    
-    .navbar-nav .nav-link {
-   font-size: larger;
 }
 
-   .navbar-brand {
-     padding-left: 2em;
-     margin-top: 1em;
-   }
-
-   .brandtext {
-     display: block;
-     margin-left:-82px;
-     color: rgb(205, 133, 63);
-     text-align: center;
-     font-family: 'Spicy Rice', cursive;
-
-   }
-   
-    /*Style paragraph all pages top*/
-   .centerp1 {
-   display: block;
-   margin-top: 18px;
-   text-align: center;
-   color: black;
-   background-color: rgb(255, 255, 255);
-   font-family: "Roboto", sans-serif;
-   font-size: medium;
-
- }
- /*Style h1 all pages top*/
- .centerh1 {
-   text-align: center;
-   margin-right: -15px;
-   padding-left: 10px;
-   color: yellow;
-   background-color: rgba(205, 133, 63, 0.7);
-       font-size: 1.5rem;
-   font-family: "Roboto", sans-serif;
- }
-
- 
- 
-
-   /*Footer styling on all pages*/
-   footer {
-     background-color: #212529;
-     color: white;
-     min-height: 100px;
-     width: 101%;
-     margin: 0;
-     display: flex;
-     justify-content: center;
-     text-align: center;
-
-   }
-   .footer-text {
-     font-family: "Roboto", sans-serif;
-     margin-top: 35px;
-     font-size: medium;
-   }
-
-   .social-links {
-     list-style: none;
-    display: flex;
-    justify-content: space-between;
-    width: 31%;
-    margin-right: 30px;
-    margin-bottom: 50px;
-    margin-top: 42px;
-   }
-   .social-links li a i {
-     width: 32px;
-     height: 32px;
-     font-size: 30px;
-
-   }
-   /*Header and footer color text*/
-   .brown {
-     color: rgb(205, 133, 63);
-
-   }
-   
-   /*INDEX.HTML*/
-   
-   /*Youtube video*/
-  
-   .video-container {
-     position: relative;
-    margin-top: 10em;
-    margin-right: -15px;
-    padding-bottom: 54.25%;
-    padding-top: 2px;
-    height: 0;
-    overflow: hidden;
-   }
-
-   .video-container iframe,
-   .video-container object,
-   .video-container embed {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-   }
-
-   .link {
-     display: block;
-     padding-right: 1px;
-     margin-left: -55px;
-     margin-right: -15px;
-     text-align: center;
-     color: white;
-     background-color: rgb(205, 133, 63)
-   }
-   
-   /*BAND.HTML*/
-   
-   .pictures {
-     margin-bottom: 100px;
-     margin-right: -2em;
-   }
-   
-   .textstyle-band {
-   text-align: center;
-   color: black;
-   background-color: white;
-   font-family: "Roboto", sans-serif;
-
- }
-
- .icon {
-   margin-right: 10px;
- }
-
- .centerinfo {
-   text-align: center;
-   background-color: white;
-
- }
-  /*MEDIA.HTML*/
-.titlesong1{
- margin-left: 185px;
-    margin-right: -89px;
-    text-align: center;
-    color: black;
-    background-color: white;
-    font-size: larger;
-    font-family: "Roboto", sans-serif;
-}
-
-.titlesong2{
-margin-left: 185px;
-    margin-right: -89px;
-    text-align: center;
-    color: black;
-    background-color: white;
-    font-size: larger;
-    font-family: "Roboto", sans-serif;
-}
- 
- .titlesong3{
- margin-left: 185px;
-    margin-right: -89px;
-    text-align: center;
-    color: black;
-    background-color: white;
-    font-size: larger;
-    font-family: "Roboto", sans-serif;
- }
- .pic1{
-   width: 80%;
-    height: auto;
-    margin-top: 90px;
-    margin-left: 186px;
-}
-
-.pic2{
-margin-top: -90px;
-    margin-left: 185px;
-    width: 80%;
-}
-.pic3{
-  margin-top: -90px;
-    margin-left: 185px;
-    width: 80%;
-}
- .audio1 {
-    width: 37%;
-    margin-bottom: 122px;
-    margin-left: 247px;
-}
-
-.audio2{
-  width: 37%;
-    margin-bottom: 122px;
-    margin-left:247px;
-}
-
-.audio3{
-width: 37%;
-    margin-bottom: 120px;
-    margin-left: 247px;
-}
-
-
-/*CONTACT.HTML*/
-
- #form_container {
-   
- 
-  margin-left: 14.5em;
-    margin-top: 12em;
-   background: rgba(0, 0, 0, 0.5);
-   color: #fff;
-   background-color: #000;
- }
-
- .upload-btn-wrapper {
-   position: relative;
-   overflow: hidden;
-   display: inline-block;
- }
-
- .upload-btn-wrapper input[type=file] {
-   font-size: 100px;
-   position: absolute;
-   left: 0;
-   top: 0;
-   opacity: 0;
- }
- }
-
- @media (min-width: 1200px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
 
  body {
-     /* Location of the image*/
-     background-image: url(/pictures/background/black-white-bg.jpg);
+  /* Location of the image*/
+  background-image: url(/pictures/background/black-white-bg.jpg);
 
-     /* Background image is centered vertically and horizontally at all times*/
-     background-position: center center;
+  /* Background image is centered vertically and horizontally at all times*/
+  background-position: center center;
 
-     /* Background image doesn't tile*/
-     background-repeat: no-repeat;
+  /* Background image doesn't tile*/
+  background-repeat: no-repeat;
 
-     /* Background image is fixed in the viewport so that it doesn't move when 
+  /* Background image is fixed in the viewport so that it doesn't move when 
      the content's height is greater than the image's height*/
-     background-attachment: fixed;
+  background-attachment: fixed;
 
-     /* This is what makes the background image rescale based
+  /* This is what makes the background image rescale based
      on the container's size */
-     background-size: cover;
+  background-size: cover;
 
-     /* Set a background color that will be displayed
+  /* Set a background color that will be displayed
      while the background image is loading*/
-     background-color: #464646;
+  background-color: #464646;
 
-     max-width: 100%;
-     overflow-x: hidden;
-   }
-   
-   .headericon {
+  max-width: 100%;
+  overflow-x: hidden;
+ }
 
-     margin-right: 10px;
+ .headericon {
 
-     color: rgb(205, 133, 63);
+  margin-right: 10px;
 
-   }
+  color: rgb(205, 133, 63);
 
-   .logobrand{
-    width: 170px;
-   }
+ }
 
-.navbar {
-    width: 102%;}
-    
-    .navbar-nav .nav-link {
-   font-size: large;
-    margin-left: 176px;
-}
+ .logobrand {
+  margin-left: -65px;
+ }
 
-   .navbar-brand {
-     padding-left: 2em;
-     margin-top: 1em;
-   }
+ .navbar {
+  width: 102%;
+ }
 
-   .brandtext {
-     display: block;
-     color: rgb(205, 133, 63);
-     text-align: center;
-     font-family: 'Spicy Rice', cursive;
-     font-size: larger;
+ .navbar-nav .nav-link {
+  font-size: larger;
+ }
 
-   }
-   
-    /*Style paragraph all pages top*/
-   .centerp1 {
-   display: block;
-   margin-top: 18px;
-   text-align: center;
-   color: black;
-   background-color: rgb(255, 255, 255);
-   font-family: "Roboto", sans-serif;
-   font-size: medium;
+ .navbar-brand {
+  padding-left: 2em;
+  margin-top: 1em;
+ }
+
+ .brandtext {
+  display: block;
+  margin-left: -82px;
+  color: rgb(205, 133, 63);
+  text-align: center;
+  font-family: 'Spicy Rice', cursive;
+
+ }
+
+ /*Style paragraph all pages top*/
+ .centerp1 {
+  display: block;
+  margin-top: 18px;
+  text-align: center;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
 
  }
  /*Style h1 all pages top*/
  .centerh1 {
-   text-align: center;
-   margin-right: -15px;
-   padding-left: 10px;
-   color: yellow;
-   background-color: rgba(205, 133, 63, 0.7);
-       font-size: 1.5rem;
-   font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-right: -15px;
+  padding-left: 10px;
+  color: yellow;
+  background-color: rgba(205, 133, 63, 0.7);
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
  }
 
- 
- 
 
-   /*Footer styling on all pages*/
-   footer {
-     background-color: #212529;
-     color: white;
-     min-height: 100px;
-     width: 101%;
-     margin: 0;
-     display: flex;
-     justify-content: center;
-     text-align: center;
 
-   }
-   .footer-text {
-     font-family: "Roboto", sans-serif;
-     margin-top: 35px;
-     font-size: medium;
-   }
 
-   .social-links {
-     list-style: none;
-    display: flex;
-    justify-content: space-between;
-   width: 18%;
-    margin-right: 48px;
-    margin-bottom: 50px;
-    margin-top: 42px;
-   }
-   .social-links li a i {
-     width: 32px;
-     height: 32px;
-     font-size: 30px;
+ /*Footer styling on all pages*/
+ footer {
+  background-color: #212529;
+  color: white;
+  min-height: 100px;
+  width: 101%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 
-   }
-   /*Header and footer color text*/
-   .brown {
-     color: rgb(205, 133, 63);
+ }
+ .footer-text {
+  font-family: "Roboto", sans-serif;
+  margin-top: 35px;
+  font-size: medium;
+ }
 
-   }
-   
-   /*INDEX.HTML*/
-   
-   /*Youtube video*/
-  
-   .video-container {
-    position: relative;
-    width: 53%;
-    margin-left: 412px;
-    margin-top: 5em;
-    padding-bottom: 26.25%;
-    padding-top: 2px;
-    height: 0;
-    overflow: hidden;
-   }
+ .social-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 31%;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  margin-top: 42px;
+ }
+ .social-links li a i {
+  width: 32px;
+  height: 32px;
+  font-size: 30px;
 
-   .video-container iframe,
-   .video-container object,
-   .video-container embed {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-   }
+ }
+ /*Header and footer color text*/
+ .brown {
+  color: rgb(205, 133, 63);
 
-   .link {
-     display: block;
-     padding-right: 1px;
-    margin-left: 413px;
-    margin-right: 490px;
-     text-align: center;
-     color: white;
-     background-color: rgb(205, 133, 63)
-   }
-   
-   /*BAND.HTML*/
-   
-   .pictures {
-     margin-bottom: 100px;
-     margin-right: -2em;
-   }
-   
-   .textstyle-band {
-   text-align: center;
-   color: black;
-   background-color: white;
-   font-family: "Roboto", sans-serif;
+ }
+
+ /*INDEX.HTML*/
+ /*Youtube video*/
+ .video-container {
+  position: relative;
+  margin-top: 10em;
+  margin-right: -15px;
+  padding-bottom: 54.25%;
+  padding-top: 2px;
+  height: 0;
+  overflow: hidden;
+ }
+
+ .video-container iframe,
+ .video-container object,
+ .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ }
+
+ .link {
+  display: block;
+  padding-right: 1px;
+  margin-left: -55px;
+  margin-right: -15px;
+  text-align: center;
+  color: white;
+  background-color: rgb(205, 133, 63)
+ }
+
+ /*BAND.HTML*/
+ .pictures {
+  margin-bottom: 100px;
+  margin-right: -2em;
+ }
+
+ .textstyle-band {
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
 
  }
 
  .icon {
-   margin-right: 10px;
+  margin-right: 10px;
  }
 
  .centerinfo {
-   text-align: center;
-   background-color: white;
+  text-align: center;
+  background-color: white;
 
  }
-  /*MEDIA.HTML*/
-.titlesong1{
- margin-left: 185px;
-    margin-right: -89px;
-    text-align: center;
-    color: black;
-    background-color: white;
-    font-size: larger;
-    font-family: "Roboto", sans-serif;
-}
-
-.titlesong2{
-margin-left: 185px;
-    margin-right: -89px;
-    text-align: center;
-    color: black;
-    background-color: white;
-    font-size: larger;
-    font-family: "Roboto", sans-serif;
-}
- 
- .titlesong3{
- margin-left: 185px;
-    margin-right: -89px;
-    text-align: center;
-    color: black;
-    background-color: white;
-    font-size: larger;
-    font-family: "Roboto", sans-serif;
+ /*MEDIA.HTML*/
+ .titlesong1 {
+  margin-left: 185px;
+  margin-right: -89px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-size: larger;
+  font-family: "Roboto", sans-serif;
  }
- .pic1{
-   width: 80%;
-    height: auto;
-    margin-top: 90px;
-    margin-left: 186px;
-}
 
-.pic2{
-margin-top: -90px;
-    margin-left: 185px;
-    width: 80%;
-}
-.pic3{
+ .titlesong2 {
+  margin-left: 185px;
+  margin-right: -89px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-size: larger;
+  font-family: "Roboto", sans-serif;
+ }
+
+ .titlesong3 {
+  margin-left: 185px;
+  margin-right: -89px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-size: larger;
+  font-family: "Roboto", sans-serif;
+ }
+ .pic1 {
+  width: 80%;
+  height: auto;
+  margin-top: 90px;
+  margin-left: 186px;
+ }
+
+ .pic2 {
   margin-top: -90px;
-    margin-left: 185px;
-    width: 80%;
-}
+  margin-left: 185px;
+  width: 80%;
+ }
+ .pic3 {
+  margin-top: -90px;
+  margin-left: 185px;
+  width: 80%;
+ }
  .audio1 {
-    width: 37%;
-    margin-bottom: 122px;
-    margin-left: 247px;
-}
-
-.audio2{
   width: 37%;
-    margin-bottom: 122px;
-    margin-left:247px;
-}
+  margin-bottom: 122px;
+  margin-left: 247px;
+ }
 
-.audio3{
-width: 37%;
-    margin-bottom: 120px;
-    margin-left: 247px;
-}
+ .audio2 {
+  width: 37%;
+  margin-bottom: 122px;
+  margin-left: 247px;
+ }
+
+ .audio3 {
+  width: 37%;
+  margin-bottom: 120px;
+  margin-left: 247px;
+ }
 
 
-/*CONTACT.HTML*/
-
+ /*CONTACT.HTML*/
  #form_container {
-   
- 
+
+
   margin-left: 14.5em;
-    margin-top: 12em;
-   background: rgba(0, 0, 0, 0.5);
-   color: #fff;
-   background-color: #000;
+  margin-top: 12em;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  background-color: #000;
  }
 
  .upload-btn-wrapper {
-   position: relative;
-   overflow: hidden;
-   display: inline-block;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
  }
 
  .upload-btn-wrapper input[type=file] {
-   font-size: 100px;
-   position: absolute;
-   left: 0;
-   top: 0;
-   opacity: 0;
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+ }
+}
+
+@media (min-width: 1200px) {
+
+ body {
+  /* Location of the image*/
+  background-image: url(/pictures/background/black-white-bg.jpg);
+
+  /* Background image is centered vertically and horizontally at all times*/
+  background-position: center center;
+
+  /* Background image doesn't tile*/
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height*/
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading*/
+  background-color: #464646;
+
+  max-width: 100%;
+  overflow-x: hidden;
+ }
+
+ .headericon {
+
+  margin-right: 10px;
+
+  color: rgb(205, 133, 63);
+
+ }
+
+ .logobrand {
+  width: 170px;
+ }
+
+ .navbar {
+  width: 102%;
+ }
+
+ .navbar-nav .nav-link {
+  font-size: large;
+  margin-left: 176px;
+ }
+
+ .navbar-brand {
+  padding-left: 2em;
+  margin-top: 1em;
+ }
+
+ .brandtext {
+  display: block;
+  color: rgb(205, 133, 63);
+  text-align: center;
+  font-family: 'Spicy Rice', cursive;
+  font-size: larger;
+
+ }
+
+ /*Style paragraph all pages top*/
+ .centerp1 {
+  display: block;
+  margin-top: 18px;
+  text-align: center;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+
+ }
+ /*Style h1 all pages top*/
+ .centerh1 {
+  text-align: center;
+  margin-right: -15px;
+  padding-left: 10px;
+  color: yellow;
+  background-color: rgba(205, 133, 63, 0.7);
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
  }
 
 
 
-   
+
+ /*Footer styling on all pages*/
+ footer {
+  background-color: #212529;
+  color: white;
+  min-height: 100px;
+  width: 101%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+ }
+ .footer-text {
+  font-family: "Roboto", sans-serif;
+  margin-top: 35px;
+  font-size: medium;
  }
 
+ .social-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 18%;
+  margin-right: 48px;
+  margin-bottom: 50px;
+  margin-top: 42px;
+ }
+ .social-links li a i {
+  width: 32px;
+  height: 32px;
+  font-size: 23px;
+
+ }
+ /*Header and footer color text*/
+ .brown {
+  color: rgb(205, 133, 63);
+
+ }
+
+ /*INDEX.HTML*/
+ /*Youtube video*/
+ .video-container {
+  position: relative;
+  width: 53%;
+  margin-left: 412px;
+  margin-top: 5em;
+  padding-bottom: 26.25%;
+  padding-top: 2px;
+  height: 0;
+  overflow: hidden;
+ }
+
+ .video-container iframe,
+ .video-container object,
+ .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ }
+
+ .link {
+  display: block;
+  padding-right: 1px;
+  margin-left: 413px;
+  margin-right: 490px;
+  text-align: center;
+  color: white;
+  background-color: rgb(205, 133, 63)
+ }
+
+ /*BAND.HTML*/
+ .pictures {
+  margin-top: 127px;
+ }
+
+ .textstyle-band {
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+
+ }
+
+ .icon {
+  margin-right: 10px;
+ }
+
+ .centerinfo {
+  text-align: center;
+  background-color: white;
+
+ }
+ /*MEDIA.HTML*/
+ .titlesong1 {
+  margin-left: 627px;
+  margin-right: -474px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-size: larger;
+  font-family: "Roboto", sans-serif;
+ }
+
+ .titlesong2 {
+  margin-left: 627px;
+  margin-right: -474px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-size: larger;
+  font-family: "Roboto", sans-serif;
+ }
+
+ .titlesong3 {
+  margin-left: 627px;
+  margin-right: -474px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-size: larger;
+  font-family: "Roboto", sans-serif;
+ }
+ .pic1 {
+  text-align: justify;
+  width: 80%;
+  height: auto;
+  margin-top: 90px;
+  margin-left: 640px;
+ }
+
+ .pic2 {
+  text-align: justify;
+  margin-top: -90px;
+  margin-left: 640px;
+  width: 80%;
+ }
+ .pic3 {
+  margin-top: -90px;
+  margin-left: 640px;
+  width: 80%;
+ }
+ .audio1 {
+  width: 30%;
+  margin-bottom: 122px;
+  margin-left: 662px;
+ }
+
+ .audio2 {
+  width: 30%;
+  margin-bottom: 122px;
+  margin-left: 662px;
+ }
+
+ .audio3 {
+  width: 30%;
+  margin-bottom: 120px;
+  margin-left: 662px;
+ }
+
+
+ /*CONTACT.HTML*/
+ #form_container {
+
+
+  margin-left: 45.5em;
+  margin-top: 9em;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  background-color: #000;
+ }
+
+ .upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+ }
+
+ .upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+ }
+
+ #message {
+  margin-left: 2px;
+  width: 215%;
+ }
+
+ .form-groupname {
+  margin-bottom: 8px;
+ }
+
+ .form-groupemail {
+  margin-left: 162px;
+ }
+
+
+
+}
