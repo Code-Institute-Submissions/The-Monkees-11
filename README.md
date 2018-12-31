@@ -22,7 +22,7 @@ Created for our fans!
 - **CONTACT** This brings you to our contact form that you can fill in with your information.
 
 ### Features left to be implented
-- Fully mobile responsive.
+- Working submit button for the contact form
 
 ### Developed
 The site is created in Cloud9.
@@ -39,4 +39,4 @@ The book us picture I created myself using photoshop.
 - Stackoverflow
 - w3schools.com
 - Code institute Slack.
-- Tutors
+- Tutors and mentor
