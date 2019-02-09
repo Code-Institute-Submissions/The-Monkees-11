@@ -29,10 +29,12 @@ The site is created in Cloud9.
 Used git for the commits and uploaded it to github.
 For a project of Code Institute.
 
+### Uploaded live version###
+The site is uploaded to:<a href="https://errepulify.github.io/The-Monkees/">The Monkees githubpage</a> 
+
 ### Credits
 
 Most of the pictures are from the code institute github.
-The book us picture I created myself using photoshop.
 
 #### Acknowledgements
 
