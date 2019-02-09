@@ -1,7 +1,7 @@
 @media (max-width: 575.98px) {
  body {
   /* Location of the image*/
-  background-image: url(/pictures/background/black-white-bg.jpg);
+  background-image: url(pictures/background/black-white-bg.jpg);
 
   /* Background image is centered vertically and horizontally at all times*/
   background-position: center center;
@@ -278,7 +278,7 @@
 
  body {
   /* Location of the image*/
-  background-image: url(/pictures/background/black-white-bg.jpg);
+  background-image: url(pictures/background/black-white-bg.jpg);
 
   /* Background image is centered vertically and horizontally at all times*/
   background-position: center center;
@@ -538,7 +538,7 @@
 
  body {
   /* Location of the image*/
-  background-image: url(/pictures/background/black-white-bg.jpg);
+  background-image: url(pictures/background/black-white-bg.jpg);
 
   /* Background image is centered vertically and horizontally at all times*/
   background-position: center center;
@@ -811,7 +811,7 @@
 
  body {
   /* Location of the image*/
-  background-image: url(/pictures/background/black-white-bg.jpg);
+  background-image: url(pictures/background/black-white-bg.jpg);
 
   /* Background image is centered vertically and horizontally at all times*/
   background-position: center center;
