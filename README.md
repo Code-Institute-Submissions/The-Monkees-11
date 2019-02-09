@@ -13,7 +13,7 @@ Created for our fans!
 - Bootstrap version 4.1
 - Font awesome
 - Google fonts. 
-
+- <a href="https://imgur.com/a/GpdWCOk">Mockup</a>
 ### Features
 - **HOME:** On the homescreen you can go listen to our newest song or click the link to our other songs.
 - **BAND:** Here you see the pictures of all the bandmembers with more info button you can click on for wikipedia.
